@@ -1,0 +1,9 @@
+# package dependencies
+node_modules
+
+# IDEs
+.vscode
+.idea
+
+# envs
+.env
