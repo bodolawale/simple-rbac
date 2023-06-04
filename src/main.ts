@@ -24,7 +24,7 @@ async function main(): Promise<void> {
 	try {
 		const appConfig = loadAppConfig(config);
 		const app = new App(appConfig);
-		const appInstance = app.init();
+		const appInstance = await app.init();
 
 		const { port } = appConfig;
 
